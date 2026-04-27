@@ -60,3 +60,4 @@ modifided -> significa que hay un cambio en el archivo commiteado sobre el que g
 
 ¿que se modifico? git diff, para salir es con q
 
+agrego linea a readme
