@@ -111,9 +111,16 @@ git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
 
 **IMPORTANTE** Siempre que quiera traerme los cambios de una rama a otra tengo que estar ubicado en la rama a donde quiero traer los cambioss
 
+```sh
+ git merge feature/ramas # fusionar main con feature/ramas
+
+```
 
 # Solo si el archivo esta en el repositorio
 ```sh
  git commit -am "add y commit juntos"
 
 ```
+* Fast/forward: fusion hecha automaticamente por git, sin conflictos
+* Conflictos: Sucede cuando en las diferentes ramas hay cambis en las mimas lineas de los mismos archivos
+
