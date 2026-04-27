@@ -93,6 +93,22 @@ git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
 ```
 
 
+*** Ver diferencia entre dos ramas
 
+```sh
+ git diff <nombre-rama>
+
+```
+# En main y quiero ver la direrencia entre amin y feature/ramas
+
+```sh
+ git diff feature/ramas
+
+```
+
+
+## Fucionar dos ramas
+
+**IMPORTANTE** Siempre que quiera traerme los cambios de una rama a otra tengo que estar ubicado en la rama a donde quiero traer los cambios
 
 
