@@ -109,6 +109,11 @@ git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
 
 ## Fucionar dos ramas
 
-**IMPORTANTE** Siempre que quiera traerme los cambios de una rama a otra tengo que estar ubicado en la rama a donde quiero traer los cambios
+**IMPORTANTE** Siempre que quiera traerme los cambios de una rama a otra tengo que estar ubicado en la rama a donde quiero traer los cambioss
 
 
+# Solo si el archivo esta en el repositorio
+```sh
+ git commit -am "add y commit juntos"
+
+```
