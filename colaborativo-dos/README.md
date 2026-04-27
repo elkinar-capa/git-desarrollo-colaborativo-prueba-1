@@ -29,3 +29,33 @@ git branch -r
 ```sh
 git branch -a
 ```
+```sh
+git commit (sin -m)
+
+agregar mensaje y tocar donde dice commit
+```
+
+** ver como cambiar de vim o vsc a nano
+
+## Otra manera de hace un commit para agregar mas informacion de lo que se hizo dentro de ese commit (A PARTIR DE LA TERCERA LINEA)
+
+```sh
+git add <nombre/archivo>
+```
+2. Hago un commit
+
+```sh
+git commit # Abre el nano o editor que tenga VIM/Vsc para agregar mensaje, titulo y a partir de la tercera linea mas detalles
+
+```
+3. Una vez escrito el mensajes para confirmar
+
+Ctrl+ O + Enter (guardar) | Ctrl + x
+
+
+
+
+
+
+
+
