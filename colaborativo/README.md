@@ -21,3 +21,42 @@ git config --global user.email "elll@gmail.com"
 
 ```sh
 git config --global init.defaultBranch main
+```
+
+```
+
+otros
+
+git log --oneline
+
+git log
+
+```
+
+```
+para pasar de working directory:
+
+git add <nombre-archivo>
+
+para pasar a staging area/index:
+
+git commit -m "mensaje"
+
+```
+
+```
+
+git status para ver estado
+
+untraked: git sabe que existe pero no los esta siguiendo
+
+que se hizo en el ultimo commit?
+git show hash (identificador de commit: se ve con git log --oneline) ---> para salir de los cambios tocar q
+
+head: (tracked)
+
+
+modifided -> significa que hay un cambio en el archivo commiteado sobre el que git ya tiene seguimiento
+
+¿que se modifico? git diff, para salir es con q
+
