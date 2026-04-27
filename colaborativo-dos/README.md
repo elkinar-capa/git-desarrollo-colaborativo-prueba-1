@@ -59,3 +59,38 @@ Ctrl+ O + Enter (guardar) | Ctrl + x
 
 
 
+
+
+
+** Crear una rama/bifurcacion
+```sh
+ git branch feature/ramas  #cambiar a main
+```
+
+** Feature/ rama
+```sh
+
+git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
+
+```
+
+```sh
+ git branch -av  #para ver en que rama estoy
+```
+
+```sh
+ git switch main  #cambiar a main
+```
+
+```sh
+ git switch feature/ramas  #cambiar a feature/ramas
+```
+
+```sh
+ git switch -  #cambiar a la rama anterior
+```
+
+
+
+
+
