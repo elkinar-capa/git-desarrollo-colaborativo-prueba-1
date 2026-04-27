@@ -23,7 +23,7 @@ git config --global user.email "elll@gmail.com"
 git config --global init.defaultBranch main
 ```
 
-```
+```sh
 
 otros
 
@@ -33,7 +33,7 @@ git log
 
 ```
 
-```
+``` sh
 para pasar de working directory:
 
 git add <nombre-archivo>
@@ -44,7 +44,7 @@ git commit -m "mensaje"
 
 ```
 
-```
+```sh
 
 git status para ver estado
 
@@ -61,3 +61,24 @@ modifided -> significa que hay un cambio en el archivo commiteado sobre el que g
 ¿que se modifico? git diff, para salir es con q
 
 agrego linea a readme
+
+
+## ¿como ver la lista de commits?
+
+git log # version larga
+git log --oneline #version corta
+
+```
+
+```sh
+# VER LOS ULTIMOS... 5 commits
+
+git log --oneline -5
+
+```
+
+```sh
+# SUBIR A GIT HUB
+
+
+```
