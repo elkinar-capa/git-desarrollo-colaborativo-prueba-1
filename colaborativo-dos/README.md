@@ -131,3 +131,9 @@ git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
 ```
 
 
+# Clonar repositorio de github a mi working space
+
+```sh
+    git clone "aca va el link del repositorio remoto"
+```
+
