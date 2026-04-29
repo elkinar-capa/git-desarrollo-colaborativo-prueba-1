@@ -124,4 +124,10 @@ git switch -c feature/ramas #crear rama feature/ramas y cambiar a ella
 * Fast/forward: fusion hecha automaticamente por git, sin conflictos
 * Conflictos: Sucede cuando en las diferentes ramas hay cambis en las mimas lineas de los mismos archivos
 
+## Como modificar el ultimo commit (solo para visualizacion del git log --oneline)
+
+```sh
+    git commit --amend -m "aca va el mensaje corregido"
+```
+
 
